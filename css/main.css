@@ -20,6 +20,10 @@ span {
     display: inline-block;
 }
 
+a  {
+    color: black;
+}
+
 /* Card */
 .card {
     width: 384px;
@@ -61,6 +65,10 @@ span {
     font-weight: 800;
     margin-bottom: 12px;
     font-size: 24px;
+}
+
+.card-title:hover {
+    color: hsl(48, 89%, 60%);
 }
 
 .card-body {
